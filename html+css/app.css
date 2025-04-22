@@ -1,0 +1,53 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    /* text-transform: lowercase; */
+    /* text-decoration: rgb(65, 38, 222) line-through wavy 10px; */
+    /* font: 700 50px Montserrat; */
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+input[type="email"] {
+    color: red;
+}
+
+p {
+    font: 100 20px/2 Montserrat, sans-serif;
+    /*/2 = line spacing*/
+}
+
+a {
+    text-decoration: none;
+}
+
+#special {
+    background-color: gold;
+}
+
+.underlined {
+    text-decoration: underline gold 3px;
+}
+
+#cast {
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+    /* cursor: grab; */
+
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */

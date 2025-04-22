@@ -1,0 +1,20 @@
+.btn {
+    border: 2px solid black;
+    color: orangered;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: white;
+    /* transition: color 0.5s, background-color 1s; */
+    /* transition: transform 3s linear 2s; */
+
+}
+
+.btn:hover {
+    background-color: orangered;
+    color: white;
+
+    transform: translateX(100px);
+    /* transform: rotate(0.5turn) */
+    /* transform: rotateZ(260deg); */
+}

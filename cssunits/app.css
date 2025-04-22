@@ -1,0 +1,23 @@
+/* .container {
+    border: 1px solid black;
+    height: 600px;
+    width: 600px;
+}
+
+.box {
+    background-color: olive;
+    width: 50%;
+    height: 50%;
+} */
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
