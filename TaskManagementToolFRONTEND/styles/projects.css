@@ -8,4 +8,5 @@
 
 .add-project:hover {
     cursor: pointer;
+    opacity: 0.9;
 }

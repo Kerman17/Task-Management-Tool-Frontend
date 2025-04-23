@@ -40,5 +40,3 @@ const projectsListener = document.querySelector('.js-projects')
 
     })
 
-
-

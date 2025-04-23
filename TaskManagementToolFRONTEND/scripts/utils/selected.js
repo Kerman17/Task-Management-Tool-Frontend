@@ -5,6 +5,12 @@ document.querySelector('.js-projects')
 
         document.querySelector('.header')
             .innerHTML = "Projects List <button class='add-project'>Add Project</button> ";
+
+
+        const addProjectButton = document.querySelector('.add-project')
+            .addEventListener('click', () => {
+                window.location.href = 'addproject.html';
+            });
     })
 
 document.querySelector('.js-home')

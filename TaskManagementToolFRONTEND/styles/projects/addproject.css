@@ -1,0 +1,4 @@
+.enter-credentials {
+    display: flex;
+    flex-direction: column;
+}
