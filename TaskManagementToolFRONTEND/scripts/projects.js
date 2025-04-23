@@ -34,7 +34,7 @@ const projectsListener = document.querySelector('.js-projects')
 
         document.querySelectorAll('.js-main-container .card').forEach(card => {
             card.addEventListener('click', () => {
-                console.log(card.dataset.id);
+                const idSelectedCard = card.dataset.id;
             })
         })
 

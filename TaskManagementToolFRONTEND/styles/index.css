@@ -161,7 +161,13 @@ nav a {
     background-color: var(--main-container);
 }
 
-.main-container h1 {
+.special {
+    color: blue;
+}
+
+.header {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     text-decoration: underline;
     margin: 36px 0;

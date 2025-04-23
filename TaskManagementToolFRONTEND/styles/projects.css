@@ -1,0 +1,11 @@
+.add-project {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #87bdd8;
+    margin-left: 32px;
+}
+
+.add-project:hover {
+    cursor: pointer;
+}
