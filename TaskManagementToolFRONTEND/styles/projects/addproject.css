@@ -32,26 +32,30 @@ body {
     bottom: 20px;
     width: 200px;
     height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-.main-container .card .card-top {
-    width: 100%;
-    margin: 5px 10px;
+.enter-credentials .project-name-input input {
+    display: inline-block;
 }
 
-.main-container .card .card-description {
+.enter-credentials .project-name-input {
+    display: inline-block;
+    width: 60%;
+    margin-bottom: 25px;
+}
+
+.enter-credentials .project-description-label #project-description-input {
     width: 95%;
+    height: 200px;
     max-height: 75%;
     margin: 5px auto;
-    background-color: var(--main-container);
+    background-color: white;
     overflow-y: auto;
+    resize: vertical;
 }
 
-.main-container .card .card-top p {
-    margin: 0;
-    padding: 0;
-}
-
-.main-container .card .card-bottom p {
-    margin: 5px 0 5px 8px;
+.enter-credentials .project-created-by-label {
+    margin: 20px 0 20px 0;
 }
