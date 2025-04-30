@@ -1,3 +1,5 @@
+
+
 const createProjectButton = document.getElementById("create-btn");
 
 createProjectButton.addEventListener("click", async () => {
@@ -22,14 +24,17 @@ createProjectButton.addEventListener("click", async () => {
             body: JSON.stringify(projectData)
         });
 
-        if (response.ok) {
+        if (response.ok && name && description && created_by) {
             alert("Project created successfully!");
+
             window.location.href = "index.html";
+            deselectAll();
+            document.querySelector('.js-projects').classList.add("selected");
         } else {
-            alert("Failed to create project. Please try again.");
+            alert("Failed to create project. Please check your input.");
         }
     } catch (error) {
         console.error("Error creating project:", error);
-        alert("An error occurred while creating the project. Please try again.");
+
     }
 })

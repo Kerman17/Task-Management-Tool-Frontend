@@ -1,4 +1,57 @@
+:root {
+    --card-color: #87bdd8;
+}
+
 .enter-credentials {
     display: flex;
     flex-direction: column;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8dcdf;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    background-color: var(--card-color);
+    border-radius: 10px;
+    position: relative;
+}
+
+.create-btn {
+    position: absolute;
+    bottom: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.main-container .card .card-top {
+    width: 100%;
+    margin: 5px 10px;
+}
+
+.main-container .card .card-description {
+    width: 95%;
+    max-height: 75%;
+    margin: 5px auto;
+    background-color: var(--main-container);
+    overflow-y: auto;
+}
+
+.main-container .card .card-top p {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container .card .card-bottom p {
+    margin: 5px 0 5px 8px;
 }

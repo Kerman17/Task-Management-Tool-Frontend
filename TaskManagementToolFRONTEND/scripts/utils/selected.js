@@ -1,3 +1,4 @@
+// This file is responsible for the selection of the menu items in the header
 document.querySelector('.js-projects')
     .addEventListener('click', () => {
         deselectAll();
