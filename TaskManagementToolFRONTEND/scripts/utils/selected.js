@@ -1,7 +1,12 @@
 // This file is responsible for the selection of the menu items in the header
+
+
 document.querySelector('.js-projects')
     .addEventListener('click', () => {
         deselectAll();
+
+
+
         document.querySelector('.js-projects').classList.add("selected");
 
         document.querySelector('.header')
@@ -16,7 +21,11 @@ document.querySelector('.js-projects')
 
 document.querySelector('.js-home')
     .addEventListener('click', () => {
+
         deselectAll();
+
+
+
         document.querySelector('.js-home').classList.add("selected");
 
         document.querySelector('.header')
@@ -28,6 +37,12 @@ document.querySelector('.js-team')
     .addEventListener('click', () => {
         deselectAll();
         document.querySelector('.js-team').classList.add("selected");
+
+
+        document.querySelector('.header')
+            .innerHTML = "Team members";
+
+
     })
 
 document.querySelector('.js-tasks')

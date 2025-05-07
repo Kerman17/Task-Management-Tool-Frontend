@@ -1,4 +1,5 @@
-const mainContainerElement = document.querySelector('.js-main-container-grid');
+mainContainerElement = document.querySelector('.js-main-container-grid');
+let htmlProjects = "";
 
 async function loadProjects() {
     const response = await fetch('http://localhost:8080/api/v1/projects').then((response) => {
@@ -6,7 +7,7 @@ async function loadProjects() {
     }).then((projects) => {
         // console.log(projects);
         projects.forEach((project) => {
-            html +=
+            htmlProjects +=
                 `
             <div class="card" data-id=${project.id}>
                     <div class="card-top">
@@ -30,7 +31,8 @@ loadProjects();
 
 const projectsListener = document.querySelector('.js-projects')
     .addEventListener('click', () => {
-        mainContainerElement.innerHTML = html;
+
+        mainContainerElement.innerHTML = htmlProjects;
 
         document.querySelectorAll('.js-main-container .card').forEach(card => {
             card.addEventListener('click', () => {
