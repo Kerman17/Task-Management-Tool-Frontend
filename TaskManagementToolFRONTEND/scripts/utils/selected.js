@@ -24,7 +24,7 @@ document.querySelector('.js-home')
 
         deselectAll();
 
-
+        mainContainerElement.innerHTML = "";
 
         document.querySelector('.js-home').classList.add("selected");
 
