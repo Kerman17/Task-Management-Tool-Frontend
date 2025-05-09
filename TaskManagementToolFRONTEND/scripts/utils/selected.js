@@ -5,8 +5,6 @@ document.querySelector('.js-projects')
     .addEventListener('click', () => {
         deselectAll();
 
-
-
         document.querySelector('.js-projects').classList.add("selected");
 
         document.querySelector('.header')
@@ -30,6 +28,45 @@ document.querySelector('.js-home')
 
         document.querySelector('.header')
             .innerHTML = "Welcome <span class=special>Raul</span> to the Task Management Tool";
+
+        document.querySelector('.main-container-grid')
+            .innerHTML = `
+        <div>
+                    <div class="img-wrapper"><img
+                            src="https://images.unsplash.com/photo-1746457421535-60ef4cb6d8d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt=""></div>
+                    <p>Rainy day</p>
+                </div>
+
+                <div>
+                    <div class="img-wrapper"><img
+                            src="https://images.unsplash.com/photo-1746591948888-7cc1e170c17b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt=""></div>
+                    <p>Flowers</p>
+                </div>
+
+                <div>
+                    <div class="img-wrapper"><img
+                            src="https://images.unsplash.com/photo-1743359610666-8d33497f6b70?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt=""></div>
+                    <p>Singularity</p>
+                </div>
+
+                <div>
+                    <div class="img-wrapper"><img
+                            src="https://images.unsplash.com/photo-1746150361891-a61a9f6703c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt=""></div>
+                    <p>Shops</p>
+                </div>
+
+                <div>
+                    <div class="img-wrapper"><img
+                            src="https://images.unsplash.com/photo-1746647819581-19604d0f04c0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt=""></div>
+                    <p>Water</p>
+                </div>
+        `
+
 
     })
 

@@ -7,7 +7,8 @@ async function loadUsers() {
         return response.json();
     }).then((users) => {
         users.forEach((user) => {
-            //console.log(user.id + ' ' + user.name + ' ' + user.email);
+
+
             htmlUsers +=
                 `
                 <div class="user-card">
